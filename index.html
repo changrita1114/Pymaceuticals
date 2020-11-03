@@ -1,50 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pymaceuticals Analysis</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pymaceuticals Analysis</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css"
+    integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
 <body>
-  <nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0 "> 
-		<a class="navbar-brand" href="https://changrita1114.github.io/Pymaceuticals/">Pymaceuticals</a> 
-		<button class="navbar-toggler" type="button"
-				data-toggle="collapse"
-				data-target="#navbarResponsive"
-				aria-controls="navbarResponsive"
-				aria-expanded="false"
-				aria-label="Toggle navigation"> 
-				<span class="navbar-toggler-icon"></span> 
-		</button> 
+  <nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0 ">
+    <a class="navbar-brand" href="https://changrita1114.github.io/Pymaceuticals/">Pymaceuticals</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-		<div class="collapse navbar-collapse"
-				id="navbarResponsive"> 
-			<ul class="navbar-nav ml-auto"> 
-				<li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Results</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/compare_1.html">Descriptive Statistics</a>
-              <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/compare_2.html">Plots Comparison</a>
-              <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_2.html">Tumor Volumes All Time Points</a>
-                <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_3.html">Tumor Volumes Before Intervention</a>
-                <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_4.html">Tumor Volumes After Intervention</a>
-              </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Results</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/compare_1.html">Descriptive
+              Statistics</a>
+            <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/compare_2.html">Plots
+              Comparison</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_2.html">Tumor Volumes All
+              Time Points</a>
+            <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_3.html">Tumor Volumes
+              Before Intervention</a>
+            <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_4.html">Tumor Volumes
+              After Intervention</a>
+          </div>
         </li>
-				<li class="nav-item"> 
-					<a class="nav-link" href="https://changrita1114.github.io/Pymaceuticals/table_1.html">Data</a> 
-				</li> 
-				<li class="nav-item"> 
-					<a class="nav-link" href="https://changrita1114.github.io/Pymaceuticals/contact.html">Contact</a> 
-				</li> 
-			</ul> 
-		</div> 
-    </nav> 
+        <li class="nav-item">
+          <a class="nav-link" href="https://changrita1114.github.io/Pymaceuticals/table_1.html">Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://changrita1114.github.io/Pymaceuticals/contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="col-md-7">
+        <h3>Summary: Total Tumor Volume vs. X</h3>
+        <hr>
+        <img src="https://github.com/changrita1114/Pymaceuticals/blob/main/WebVisualizations/assets/04.jpg?raw=true"
+          alt="Regression of Capomulin">
+        <p id="first_paragraph">The purpose of this project was to analyze how total tumor volumes change in ten
+          different drug regimens. To accomplish this analysis, data was pulled from the two different tables to
+          assemble
+          a dataset of 249 mice
+          and over 1800 total tumor volume measurement points.After assembling the dataset, Matplotlib was used to
+          visualize the results and the statistical analysis was compeleted using SciPy.
+          The five top regimens were ranked using mean of the total tumor volumes at the last measurement point. The
+          five regimens
+          were Ramicane, Capomulin, Propriva, Ceftamin and Infubinol. This site provides the source data and
+          visualizations
+          created as part of the analysis, as well as explantions and descriptions of any trends and correlations
+          witnessed.
+        </p>
+      </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+      <div class="col-md-4" id="first_column">
+        <a href="https://changrita1114.github.io/Pymaceuticals/compare_2.html">
+          <h4 id="visualization">Visualizations</h4>
+        </a>
+        <hr>
+        <img src="https://github.com/changrita1114/Pymaceuticals/blob/main/WebVisualizations/assets/03.jpg?raw=true"
+          alt="Boxplots">
+        <img src="https://github.com/changrita1114/Pymaceuticals/blob/main/WebVisualizations/assets/05.jpg?raw=true"
+          alt="Ramicane regression">
+        <img src="https://github.com/changrita1114/Pymaceuticals/blob/main/WebVisualizations/assets/04.jpg?raw=true"
+          alt="Capomulin regression">
+        <img src="https://github.com/changrita1114/Pymaceuticals/blob/main/WebVisualizations/assets/06.jpg?raw=true"
+          alt="Propriva regression">
+        <img src="https://github.com/changrita1114/Pymaceuticals/blob/main/WebVisualizations/assets/08.jpg?raw=true"
+          alt="Ceftamin regression">
+        <img src="https://github.com/changrita1114/Pymaceuticals/blob/main/WebVisualizations/assets/07.jpg?raw=true"
+          alt="Infubinol regression">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

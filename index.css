@@ -4,3 +4,52 @@
     margin-left: 20px;
     cursor: pointer;
   }
+
+body{
+    background: lightsteelblue;
+}
+
+.col-md-7{
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+  }
+
+.col-md-7 img {
+    width: 450px;
+    height: auto;
+    padding: 0 10px 0 0;
+}
+
+.col-md-4{
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+  }
+
+#first_column img{
+    width: 200px;
+    height: auto;
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
+@media (max-width: 576px) {
+ 
+    #first_column img{
+      width: 200px;
+      height:auto;
+      float: left;
+      width: 33%;
+      padding: 5px;
+    }
+  
+    .col-md-7 img {
+      width: 350px;
+      height: auto;
+      float: left;
+      padding: 0 10px 0 0;
+  }
+    
+  }
