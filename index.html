@@ -3,36 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project_One</title>
-    <h1>Data Analysis SQLAlchemy</h1>
-    <style>
-      img { width: 600px;
-            height: auto;
-            }
-    </style>
-</head>
+    <title>Pymaceuticals Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+  </head>
 <body>
-    <h1>Purpose</h1>
-        <p>To determine what is the best to visit Hawaii.</p>
-    <h2>Analysis Results</h2>
-        <img src = "002.png" alt="testing fig">
-        <br/>
-        <table style="width:30%">
-            <tr>
-              <th>Station</th>
-              <th>prcp</th> 
-              <th>tobs</th>
-            </tr>
-            <tr>
-              <td>001</td>
-              <td>0.1</td> 
-              <td>80</td>
-            </tr>
-            <tr>
-              <td>002</td>
-              <td>0.2</td> 
-              <td>90</td>
-            </tr>
-          </table>
+  <nav class=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-lg-0 "> 
+		<a class="navbar-brand" href="https://changrita1114.github.io/Pymaceuticals/">Pymaceuticals</a> 
+		<button class="navbar-toggler" type="button"
+				data-toggle="collapse"
+				data-target="#navbarResponsive"
+				aria-controls="navbarResponsive"
+				aria-expanded="false"
+				aria-label="Toggle navigation"> 
+				<span class="navbar-toggler-icon"></span> 
+		</button> 
+
+		<div class="collapse navbar-collapse"
+				id="navbarResponsive"> 
+			<ul class="navbar-nav ml-auto"> 
+				<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Results</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Descriptive Statistics</a>
+              <a class="dropdown-item" href="#">Plots Comparison</a>
+              <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_2.html">Tumor Volume All Time Point</a>
+                <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_3.html">Tumor Volume Before Intervention</a>
+                <a class="dropdown-item" href="https://changrita1114.github.io/Pymaceuticals/table_4.html">Tumor Volume After Intervention</a>
+              </div>
+        </li>
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://changrita1114.github.io/Pymaceuticals/table_1.html">Data</a> 
+				</li> 
+				<li class="nav-item"> 
+					<a class="nav-link" href="https://changrita1114.github.io/Pymaceuticals/contact.html">Contact</a> 
+				</li> 
+			</ul> 
+		</div> 
+    </nav> 
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

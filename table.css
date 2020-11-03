@@ -1,8 +1,14 @@
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
 h6{
     margin-left: 30px;
     color: black;
 }
-
 
 table {
     font-family: arial, sans-serif;
