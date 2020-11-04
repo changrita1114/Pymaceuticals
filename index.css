@@ -4,6 +4,11 @@
     margin-left: 20px;
     cursor: pointer;
   }
+.navbar-brand{
+  font-weight: bold;
+  font-size: 24px;
+}
+
 
 body{
     background: lightsteelblue;
